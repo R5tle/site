@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(bg-b.png) repeat 50% 0 #e65d5d;
+    background: url(bg-b.html) repeat 50% 0 #e65d5d;
     padding: 50px 0;
     font-family: Arial, sans-serif;
 }
@@ -24,22 +24,78 @@ a {
 
 header {
     background: #ffffff;
-    height: 185px;
+    height: 200px;
 }
 
 header h1 {
     float: left;
     margin: 46px 0 0 37px;
-    border: none;
 }
 
 .wrapper1 {
     width: 1000px;
-    height: 773px;
+    height: 750px;
     margin: 0 auto;
     background: #ffffff;
 }
 
+nav {
+    float: left;
+    clear: left;
+}
+
+nav li {
+    float: left;
+    margin: 70px 20px 0 47px;
+}
+
+nav li a {
+    color: #6b6b6b;
+    font-size: 18px;
+}
+
+.div1 {
+    float: left;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-right: 0;
+    padding-left: 24px;
+    padding-bottom: -50px;
+}
+
+.div2 {
+    float: left;
+    padding-left: 24px;
+    font-size: 14px;
+}
+
+nav hr {
+    margin-left: 47px;
+}
+
+.div3 {
+    position: relative;
+    top: 60px;
+}
+
+.div4 {
+    position: relative;
+    top: 5px;
+}
+
+.line {
+    position: relative;
+    border-right: 1px solid gray;
+    padding-right: 40px;
+    height: 50px;
+
+}
+.text-1 {
+    font-size: 12px;
+    font-weight: bold;
+   padding:75px 0 0 57px;
+
+}
 /*li1 {
     float:left;
     margin:37px 0 0 -24px;
@@ -90,36 +146,4 @@ li11 {
     float: left;
     margin: -380px 0 0 870px;
 } */
-nav {
-    float: left;
-    clear: left;
-}
 
-nav li {
-    float: left;
-    margin: 50px 20px 0 47px;
-}
-
-nav li a {
-    color: #6b6b6b;
-    font-size: 18px;
-}
-
-.div1 {
-    float: left;
-    font-size: 20px;
-    padding-top: 50px;
-    padding-right: 0px;
-    padding-left: 64px;
-    padding-bottom: -50px;
-}
-
-.div2 {
-    float: left;
-    padding-left: 64px;
-    font-size: 14px;
-}
-
-nav hr {
-    margin-left: 47px;
-}
