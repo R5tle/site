@@ -162,9 +162,47 @@ nav hr {
     float: right;
     margin-right: 21px;
     margin-top: -740px;
-    border: 1px solid #000000;
 }
-
+.text-4 {
+    position: relative;
+    float: right;
+    font-size: 12px;
+    margin-right: 28px;
+    margin-top: -730px;
+}
+.block1 {
+    position: relative;
+    width:57px;
+    height: 15px;
+    background: #2b2b29;
+    color:white;
+    font-size: 12px;
+    padding-left:5px;
+    float:right;
+    margin-top:-670px;
+    margin-right:37px;
+}
+.line1 {
+    position: relative;
+    border:1px solid white;
+    width:1px;
+    height:15px;
+    bottom:670px;
+    left:947px;
+}
+.arrow {
+    position: relative;
+    font-size:20px;
+    color:white;
+    bottom:688px;
+    left:951px;
+}
+.div7 {
+    position: relative;
+    color:#cccccc;
+    bottom:650px;
+    left:55px;
+}
 /*li1 {
     float:left;
     margin:37px 0 0 -24px;
