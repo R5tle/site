@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    position:relative;
 }
 
 body {
@@ -17,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-.wrapper {
+.head{
     width: 1000px;
     margin: 0 auto;
 }
@@ -32,7 +33,7 @@ header h1 {
     margin: 46px 0 0 37px;
 }
 
-.wrapper1 {
+.content {
     width: 1000px;
     height: 750px;
     margin: 0 auto;
@@ -54,37 +55,35 @@ nav li a {
     font-size: 18px;
 }
 
-.div1 {
+.heading {
     float: left;
     font-size: 20px;
-    padding-top: 50px;
-    padding-right: 0;
-    padding-left: 24px;
-    padding-bottom: -50px;
+    padding:50px 0 0 24px;
+    color:#f2ac04;
 }
 
-.div2 {
+.heading_1 {
     float: left;
     padding-left: 24px;
     font-size: 14px;
+    color:#929292;
 }
 
 nav hr {
     margin-left: 47px;
 }
 
-.div3 {
-    position: relative;
+.horizontal_line {
     top: 60px;
+    width: 900px;
 }
 
-.div4 {
-    position: relative;
+.horizontal_line_1 {
     top: 5px;
+    width: 900px;
 }
 
 .line {
-    position: relative;
     border-right: 1px solid gray;
     padding-right: 40px;
     height: 50px;
@@ -95,83 +94,81 @@ nav hr {
     font-size: 12px;
     font-weight: bold;
     padding: 75px 0 0 57px;
-
+    color:#555656;
 }
 
-.wrapper1 li:nth-child(1) {
+.content li:nth-child(1) {
     padding: 12px 0 0 57px;
     position: relative;
 
 }
 
-.wrapper1 li:nth-child(2) {
-    position: relative;
-    top: -52px;
+.content li:nth-child(2) {
+    bottom: 52px;
     left: 57px;
 }
 
-.wrapper1 li:nth-child(3) {
-    position: relative;
+.content li:nth-child(3) {
     bottom: 356px;
     left: 54px;
 }
 
-.wrapper1 li:nth-child(4) {
-    position: relative;
+.content li:nth-child(4) {
     left: 71px;
     bottom: 397px;
 }
 
-.wrapper1 li:nth-child(5) {
-    position: relative;
+.content li:nth-child(5) {
     bottom: 423px;
     left: 465px;
 }
 
-.div5 {
-    position: relative;
+.banner1_text {
     bottom: 448px;
     left: 129px;
+    color:#666666;
 }
 
-.banner2 li:nth-child(1) {
+.banner_2 li:nth-child(1) {
     left: 470px;
     bottom: 744px;
 }
 
-.text-2 {
-    position: relative;
+.image_text {
     font-size: 26px;
     float: right;
     margin-right: 55px;
-    margin-top: -880px;
+    bottom: 883px;
     text-transform: uppercase;
+    color:#ffffff;
 }
 
-.text-3 {
-    position: relative;
+.image_text_1 {
     font-size: 40px;
     float: right;
-    margin-right: 190px;
-    margin-top: -850px;
+    left: 260px;
+    bottom: 850px;
     text-transform: uppercase;
+    color:#ffffff;
 }
 
-.div6 {
-    position: relative;
+.horizontal_line_2 {
     float: right;
-    margin-right: 21px;
-    margin-top: -740px;
+    margin-right: 22px;
+    bottom: 830px;
+    width:450px;
+    height:1px;
+    background-color:#040404;
+    border:none;
 }
 .text-4 {
-    position: relative;
     float: right;
     font-size: 12px;
-    margin-right: 28px;
-    margin-top: -730px;
+    left: 445px;
+    bottom: 820px;
+    color:#3c3c3c;
 }
-.block1 {
-    position: relative;
+.block_1 {
     width:57px;
     height: 15px;
     background: #2b2b29;
@@ -179,29 +176,27 @@ nav hr {
     font-size: 12px;
     padding-left:5px;
     float:right;
-    margin-top:-670px;
+    bottom:816px;
     margin-right:37px;
 }
-.line1 {
-    position: relative;
-    border:1px solid white;
-    width:1px;
-    height:15px;
-    bottom:670px;
-    left:947px;
-}
 .arrow {
-    position: relative;
     font-size:20px;
     color:white;
-    bottom:688px;
+    bottom:673px;
     left:951px;
 }
-.div7 {
-    position: relative;
+.horizontal_line_3 {
     color:#cccccc;
-    bottom:650px;
+    bottom:770px;
     left:55px;
+    width:900px;
+}
+.block_line {
+    border-right:1px solid white;
+    width:1px;
+    height: 15px;
+    bottom:693px;
+    left:945px;
 }
 /*li1 {
     float:left;
