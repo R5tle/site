@@ -40,53 +40,59 @@ header h1 {
     background: #ffffff;
 }
 
-nav {
+.menu {
     float: left;
     clear: left;
 }
 
-nav li {
+.menu li {
     float: left;
     margin: 70px 20px 0 47px;
+    bottom:60px ;
+    left: 12px;
 }
 
-nav li a {
+.menu li a {
     color: #6b6b6b;
     font-size: 18px;
 }
 
 .heading {
-    float: left;
     font-size: 20px;
-    padding:50px 0 0 24px;
     color:#f2ac04;
+    left: 380px;
+    bottom: 70px;
 }
 
 .heading_1 {
-    float: left;
-    padding-left: 24px;
     font-size: 14px;
     color:#929292;
+    left: 380px;
+    bottom: 70px;
 }
 
-nav hr {
+.menu hr {
     margin-left: 47px;
 }
 
 .horizontal_line {
-    top: 60px;
+    top: 0;
     width: 900px;
+    left: 5px;
 }
 
 .horizontal_line_1 {
-    top: 5px;
+    bottom: 55px;
     width: 900px;
+    left: 5px;
 }
 
 .line {
     border-right: 1px solid gray;
     padding-right: 40px;
     height: 50px;
+    font-size: 34px;
+    color:#3c3c3c;
 
 }
 
@@ -96,29 +102,28 @@ nav hr {
     padding: 75px 0 0 57px;
     color:#555656;
 }
-
-.content li:nth-child(1) {
+.bg {
     padding: 12px 0 0 57px;
     position: relative;
 
 }
 
-.content li:nth-child(2) {
+.white {
     bottom: 52px;
     left: 57px;
 }
 
-.content li:nth-child(3) {
+.border1 {
     bottom: 356px;
     left: 54px;
 }
 
-.content li:nth-child(4) {
+.arrow-left {
     left: 71px;
     bottom: 397px;
 }
 
-.content li:nth-child(5) {
+.arrow-right {
     bottom: 423px;
     left: 465px;
 }
@@ -129,16 +134,16 @@ nav hr {
     color:#666666;
 }
 
-.banner_2 li:nth-child(1) {
-    left: 470px;
-    bottom: 744px;
+.bg2 {
+    left: 528px;
+    bottom: 734px;
 }
 
 .image_text {
     font-size: 26px;
     float: right;
     margin-right: 55px;
-    bottom: 883px;
+    bottom: 873px;
     text-transform: uppercase;
     color:#ffffff;
 }
@@ -147,7 +152,7 @@ nav hr {
     font-size: 40px;
     float: right;
     left: 260px;
-    bottom: 850px;
+    bottom: 840px;
     text-transform: uppercase;
     color:#ffffff;
 }
@@ -155,7 +160,7 @@ nav hr {
 .horizontal_line_2 {
     float: right;
     margin-right: 22px;
-    bottom: 830px;
+    bottom: 820px;
     width:450px;
     height:1px;
     background-color:#040404;
@@ -165,7 +170,7 @@ nav hr {
     float: right;
     font-size: 12px;
     left: 445px;
-    bottom: 820px;
+    bottom: 810px;
     color:#3c3c3c;
 }
 .block_1 {
@@ -176,13 +181,13 @@ nav hr {
     font-size: 12px;
     padding-left:5px;
     float:right;
-    bottom:816px;
+    bottom:806px;
     margin-right:37px;
 }
 .arrow {
     font-size:20px;
     color:white;
-    bottom:673px;
+    bottom:663px;
     left:951px;
 }
 .horizontal_line_3 {
@@ -195,8 +200,19 @@ nav hr {
     border-right:1px solid white;
     width:1px;
     height: 15px;
-    bottom:693px;
+    bottom:683px;
     left:945px;
+}
+.logo {
+    left:140px;
+}
+.block-1{
+    right:150px;
+    top: 40px;
+}
+.block-2 {
+    right:120px;
+    bottom: 20px;
 }
 /*li1 {
     float:left;
