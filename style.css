@@ -4,7 +4,7 @@
 }
 
 body {
-    background: 0 #e65d5d;
+    background-color:#e65d5d;
     padding: 50px 0;
     font-family: Arial, sans-serif;
 }
@@ -14,6 +14,8 @@ ul {
 
 a {
     text-decoration: none;
+    display: block;
+    padding:5px;
 }
 header a {
     color: #3c3c3c;
@@ -23,7 +25,6 @@ header a {
 }
 .wrapper {
     width: 1000px;
-    height: 1200px;
     margin: 0 auto;
     background: #ffffff;
 }
@@ -34,7 +35,7 @@ header {
     display: inline-block;
     padding: 48px 0 0 36px;
 }
-.title {
+.wrapper a {
     display: inline-block;
     font-size: 20px;
     color:#3c3c3c;
@@ -72,9 +73,12 @@ header {
     padding: 15px 0 15px 0;
     border-bottom: 1px solid gray;
 }
+.menu ul {
+    font-size: 0;
+}
 .menu  li {
     display: inline-block;
-    padding-right: 77px;
+    width: 20%;
     font-size: 18px;
 }
 .banners {
@@ -82,6 +86,7 @@ header {
 }
 .banner_left {
     width: 450px;
+    float: left;
 }
 .text_top {
     display: inline-block;
@@ -105,7 +110,7 @@ header {
 }
 .arrow_left{
     display: inline-block;
-    margin: 14px 0 0 26px;
+    margin: 16px 0 0 26px;
 }
 .banner_left_text {
     display: inline-block;
@@ -116,8 +121,8 @@ header {
     margin-left: 110px;
 }
 .banner_right {
-
-    width: 460px;
+    float:right;
+    margin-top: 31px;
 }
 .image_japan {
 
