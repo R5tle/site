@@ -1,13 +1,44 @@
+@font-face {
+    font-family: HelveticaCE_Regular;
+    src: url(fonts/HelveticaRegular.woff), url(fonts/HelveticaCE_Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Myriad_Pro_Regular;
+    src: url(fonts/MyriadProRegular.woff), url(fonts/MyriadProRegular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Swiss_721;
+    src: url(fonts/swiss-721-thin-bt-59f5fc1d89e4d.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto_Regular;
+    src: url(fonts/Roboto-Regular.woff), url(fonts/Roboto-Regular.ttf) ;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto_bold;
+    src: url(fonts/Roboto-bold.woff), url(fonts/Roboto-bold.ttf);
+    font-weight: bold;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color:#e65d5d;
+    background-color: #e65d5d;
     padding: 50px 0;
     font-family: Arial, sans-serif;
 }
+
 ul {
     list-style: none;
 }
@@ -15,86 +46,125 @@ ul {
 a {
     text-decoration: none;
     display: block;
-    padding:5px;
+    padding: 5px;
 }
+
+h1 {
+    font-size: 34px;
+    font-family: "HelveticaCE_Regular";
+    margin-left: 14px;
+}
+
 header a {
     color: #3c3c3c;
 }
+
 .content a {
     color: #848484;
 }
+
 .wrapper {
     width: 1000px;
-    margin: 0 auto;
+    margin: auto;
     background: #ffffff;
+    box-sizing: border-box;
+    padding: 0 15px 0 33px;
 }
+
 header {
     height: 140px;
 }
-.head_image{
+
+.head_image {
     display: inline-block;
-    padding: 48px 0 0 36px;
+    padding-top: 48px;
 }
+
 .wrapper a {
     display: inline-block;
     font-size: 20px;
-    color:#3c3c3c;
+    color: #3c3c3c;
+    vertical-align: top;
 }
+
 .title_line {
     display: inline-block;
-    height: 45px;
-    width:1px;
-    border-right:1px solid gray;
-    padding-left: 40px;
+    height: 54px;
+    width: 1px;
+    border-right: 1px solid gray;
+    padding-left: 28px;
 }
+
 .title_text {
     display: inline-block;
     width: 420px;
-    height:50px;
-    padding-left:35px ;
+    height: 50px;
+    padding-left: 21px;
 }
+
 .lorem {
     display: inline-block;
-    font-size: 20px;
+    font-size: 19.4px;
     text-transform: uppercase;
     color: #f4b845;
+    font-family: "Helvetica";
+    padding-bottom: 14px;
+    vertical-align: top;
 }
+
 .consectetur {
     display: inline-block;
     font-size: 14px;
-    color:#929292;
+    color: #929292;
+    font-family: Myriad_Pro_Regular;
+    vertical-align: top;
+    margin: -7px 0 0 1px;
 }
 .content {
     height: 820px;
-    margin: 0 36px 0 43px;
 }
+
 .menu {
     border-top: 1px solid gray;
-    padding: 15px 0 15px 0;
     border-bottom: 1px solid gray;
+    margin-top: -2px;
+    font-family: Swiss_721;
+
+}
+.menu a {
+    font-size: 17px;
+    margin: 6px 0 0 1px;
 }
 .menu ul {
     font-size: 0;
+    padding-bottom: 6px;
 }
-.menu  li {
+
+.menu li {
     display: inline-block;
     width: 20%;
-    font-size: 18px;
 }
+
 .banners {
-    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    margin: 71px 0 0 23px;
 }
+
 .banner_left {
-    width: 450px;
     float: left;
+    width: 50%;
 }
+
 .text_top {
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
     color: #555656;
     font-size: 12px;
+    font-family:Roboto_Regular ;
 }
+
 .image_cactus {
     margin-top: 13px;
     width: 445px;
@@ -102,29 +172,56 @@ header {
     padding-top: 250px;
     border: 1px solid gray;
 }
+
 .image_bottom {
-    display:block;
+    display: block;
     width: 445px;
     height: 50px;
-    background:#fdfdfd;
+    background: #fdfdfd;
 }
-.arrow_left{
+
+.arrow_left {
     display: inline-block;
-    margin: 16px 0 0 26px;
+    margin: 11px 0 0 23px;
 }
+
 .banner_left_text {
     display: inline-block;
-    margin-left:40px;
+    margin:0 0 0 32px;
+    font-size: 18px;
 }
+
 .arrow_right {
     display: inline-block;
-    margin-left: 110px;
+    margin: 0 0 0 102px;
 }
+
 .banner_right {
-    float:right;
-    margin-top: 31px;
+    float: right;
+    width: 50%;
+    margin-top: 28px;
 }
-.image_japan {
-
+.Right_text_up {
+    position: absolute;
+    font-family: Swiss_721;
+    top:88px;
+    color: #ffffff;
+    font-size: 28px;
+    right: 82px;
 }
-
+.Right_text_down {
+    position: absolute;
+    top:128px;
+    color: #ffffff;
+    font-size: 38px;
+    right: 210px;
+}
+.long_text {
+    font-size: 12px;
+    margin-top: 16px;
+    font-family: Roboto_bold;
+    color: #5e5e5e;
+}
+.news {
+    font-size: 15px;
+}
